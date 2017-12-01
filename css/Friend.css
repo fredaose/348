@@ -1,0 +1,46 @@
+/*
+body {
+    margin: 0;
+}
+*/
+.Hello{
+    text-align: center;
+}
+.Friend {
+    margin-top: 10px;
+    font-size: 20px;
+    list-style-type: none;
+/*    margin: 0;*/
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.Friendslist a {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 25%;
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.Friendslist a.active {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 25%;
+    background-color: #4CAF50;
+    color: white;
+    
+}
+.Friendslist a:hover:not(.active) {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 25%;
+    background-color: white;
+    color: black;
+}
